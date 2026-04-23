@@ -1,23 +1,23 @@
 ## Repository structure
 
 ### Annotation and preprocessing
-- `script_agat_allsteps.sh` → Performs gene model processing using AGAT, retaining longest isoforms in a GFF3 file and extracting corresponding CDS and protein sequences from the genome FASTA.
-- `script_interpro.sh` → Protein domain annotation using InterProScan.
-- `script_kofamscan.sh` → KEGG Orthology assignment using KofamScan.
-- `script_tesorter.sh` → Transposable element detection and classification using TEsorter.
+- `script_agat_allsteps.sh` → Script for generating a GFF3 file with the longest isoforms using AGAT, as well as extracting the corresponding CDS and protein sequences by combining the processed annotation (longest GFF3) with the genome FASTA file.
+- `script_interpro.sh` → Performs protein functional annotation by identifying conserved domains and signatures using InterProScan.
+- `script_tesorter.sh` → Detects and classifies transposable elements in sequences using TEsorter.
+- - `script_kofamscan.sh` → Script for obtaining KEGG Orthology (KO) assignments using KofamScan.
 
 ### Orthology analysis
-- `script_orthofinder3.1.sh` → Orthogroup inference using OrthoFinder
+- `script_orthofinder3.1.sh` → Performs orthogroup inference across species using OrthoFinder v3.1.
 
 ### Biosynthetic gene clusters (BGCs)
-- `script_plantismash.sh` → Detection of BGCs using plantiSMASH
-- `script_bigscape.sh` → Clustering and networking of BGCs using BiG-SCAPE
-- `script_clinker.sh` → Visualization of gene cluster similarity
+- `script_plantismash.sh` → Identifies biosynthetic gene clusters (BGCs) using plantiSMASH.
+- `script_bigscape.sh` → Clusters and constructs similarity networks of BGCs using BiG-SCAPE.
+- `script_clinker.sh` → Generates visualizations of synteny and similarity between gene clusters.
 
 ### Phylogeny
-- `busco_script_prot.sh` → BUSCO analysis on protein sequences.
-- `busco_phylogenomics.sh` → Phylogenomic dataset construction using BUSCO single-copy orthologs.
-- `iqtree_script.sh` → Phylogenetic inference using IQ-TREE.
+- `busco_script_prot.sh` → Runs BUSCO on protein sequences to assess genome completeness.
+- `busco_phylogenomics.sh` → Builds a phylogenomic dataset based on BUSCO single-copy orthologs.
+- `iqtree_script.sh` → Performs phylogenetic tree inference using IQ-TREE.
 - `RESULTS_iqtree.treefile` → Final IQ-TREE phylogenetic tree.
 
 #### R scripts
