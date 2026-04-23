@@ -4,7 +4,7 @@
 - `script_agat_allsteps.sh` → Script for generating a GFF3 file with the longest isoforms using AGAT, as well as extracting the corresponding CDS and protein sequences by combining the processed annotation (longest GFF3) with the genome FASTA file.
 - `script_interpro.sh` → Performs protein functional annotation by identifying conserved domains and signatures using InterProScan.
 - `script_tesorter.sh` → Detects and classifies transposable elements in sequences using TEsorter.
-- - `script_kofamscan.sh` → Script for obtaining KEGG Orthology (KO) assignments using KofamScan.
+- `script_kofamscan.sh` → Script for obtaining KEGG Orthology (KO) assignments using KofamScan.
 
 ### Orthology analysis
 - `script_orthofinder3.1.sh` → Performs orthogroup inference across species using OrthoFinder v3.1.
