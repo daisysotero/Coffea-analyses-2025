@@ -38,16 +38,18 @@ To run the scripts, you can:
 
 ```bash
 git clone https://github.com/daisysotero/Coffea-analyses-2025.git
-
-or download the repository as individual files directly from GitHub
-or copy each script manually and save it as a .sh file using a text editor (e.g., Notepad++, VS Code).
+```
+- or download the repository as individual files directly from GitHub
+- or copy each script manually and save it as a .sh file using a text editor (e.g., Notepad++, VS Code).
 
 Once the scripts are saved locally, navigate to the directory containing them and (optionally but recommended) give execution permission:
-
+```bash
 chmod +x *.sh
 chmod +x *.py
-
+```
 Then run the scripts using:
+```bash
 bash script_name.sh
 python script_name.py
+```
 
